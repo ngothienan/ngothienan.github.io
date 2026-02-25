@@ -35,7 +35,7 @@ pygmentsUseClasses = true
   UseHugoToc = true
 
 [params.meta]
-  favicon = false
+  favicon = true
 
 [params.profileMode]
   enabled = true
