@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ancorn_</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on ancorn_</description>
+    <image>
+      <title>ancorn_</title>
+      <url>https://pbs.twimg.com/profile_images/1634910718846963717/RJTIDn4s_400x400.jpg</url>
+      <link>https://pbs.twimg.com/profile_images/1634910718846963717/RJTIDn4s_400x400.jpg</link>
+    </image>
+    <generator>Hugo -- 0.156.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Feb 2024 21:24:25 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[POC] CVE-2024-24842 - Unauthenticated PHP Object Injection in plugin Knowledge Base - Wordpress</title>
+      <link>http://localhost:1313/posts/poc--cve-2024-24842---unauthenticated-php-object-injection-in-plugin-knowledge-base/</link>
+      <pubDate>Mon, 19 Feb 2024 21:24:25 +0700</pubDate>
+      <guid>http://localhost:1313/posts/poc--cve-2024-24842---unauthenticated-php-object-injection-in-plugin-knowledge-base/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/echo-knowledge-base/knowledge-base-for-documentation-faqs-with-ai-assistance-11302-unauthenticated-php-object-injection-in-is-article-recently-viewed&#34;&gt;Knowledge Base for Documentation, FAQs with AI Assistance plugin - Unauthenticated PHP Object Injection&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;-table-of-content&#34;&gt;✋ Table of content&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;About Knowledge Base for Documentation, FAQs with AI Assistance plugin&lt;/li&gt;
+&lt;li&gt;The security vulnerability&lt;/li&gt;
+&lt;li&gt;The patch&lt;/li&gt;
+&lt;li&gt;Conclusion&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This blog post is about the &lt;strong&gt;Knowledge Base for Documentation, FAQs with AI Assistance&lt;/strong&gt; plugin vulnerability. If you&amp;rsquo;re using this plugin, please update the plugin to at least version &lt;strong&gt;11.31.0&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;about-knowledge-base-for-documentation-faqs-with-ai-assistance-plugin&#34;&gt;About Knowledge Base for Documentation, FAQs with AI Assistance plugin&lt;/h2&gt;
+&lt;p&gt;The plugin &lt;strong&gt;Knowledge Base for Documentation, FAQs with AI Assistance&lt;/strong&gt;  (versions 11.30.2 and below), which is estimated to have over 10,000 active installations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[POC] CVE-2020-7769 - Command Injection in nodemailer</title>
+      <link>http://localhost:1313/posts/poc-cve-2020-7769---command-injection-in-nodemailer/</link>
+      <pubDate>Sun, 03 Sep 2023 21:24:25 +0700</pubDate>
+      <guid>http://localhost:1313/posts/poc-cve-2020-7769---command-injection-in-nodemailer/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://security.snyk.io/vuln/SNYK-JS-NODEMAILER-1038834&#34;&gt;Command Injection in nodemailer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Someday, i read some product code and found out that application using nodemailer to send email. After spending some second to audit &lt;strong&gt;package-lock&lt;/strong&gt; file, i saw it had this CVE.&lt;/p&gt;
+&lt;p&gt;But i read that details and their POC, i still not understand what they want to deliver.&lt;/p&gt;
+&lt;p&gt;Found their commit to fix their bug and already know where the bug from
+&lt;a href=&#34;https://github.com/nodemailer/nodemailer/commit/ba31c64c910d884579875c52d57ac45acc47aa54&#34;&gt;https://github.com/nodemailer/nodemailer/commit/ba31c64c910d884579875c52d57ac45acc47aa54&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It comes from &lt;strong&gt;send&lt;/strong&gt; function, with arbitrary command flag injection in &lt;strong&gt;sendmail&lt;/strong&gt; transport.
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/CVE-2020-7769/1.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

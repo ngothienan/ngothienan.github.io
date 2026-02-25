@@ -1,0 +1,109 @@
+baseURL = "https://examplesite.com/"
+title = "ancorn_"
+paginate = 5
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+googleAnalytics = "UA-123-45"
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "ancorn_ blog"
+  description = "Security Researcher & Penetration Tester"
+  keywords = ["Blog", "Portfolio", "ancorn_", "Ngô Thiên An", "Thiên An", "Cybersecurity", "Pentest"]
+  author = "ancorn_"
+  images = ["https://pbs.twimg.com/profile_images/1634910718846963717/RJTIDn4s_400x400.jpg"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+[params.profileMode]
+  enabled = true
+  title = "Ngô Thiên An (ancorn_)"
+  subtitle = "Security Researcher | Penetration Tester | Bug Bounty Hunter"
+  imageUrl = "https://pbs.twimg.com/profile_images/1634910718846963717/RJTIDn4s_400x400.jpg"
+  imageTitle = "ancorn_"
+  imageWidth = 120
+  imageHeight = 120
+
+[[params.profileMode.buttons]]
+  name = "About"
+  url = "/about"
+
+[[params.profileMode.buttons]]
+  name = "Synack"
+  url = "https://acropolis.synack.com/inductees/ancorn_" # Cập nhật link Github của bạn nếu cần
+
+[[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/ancorn_"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/ngothienan/"
+
+[params.homeInfoParams]
+  Title = "ancorn_ says 👋"
+  Content = "Just a security enthusiast trying to learn more and more everyday."
+
+[params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+
+[params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+[params.analytics.google]
+  SiteVerificationTag = "XYZabc"
+
+[params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit = 10
+  keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 20
+
+[markup.highlight]
+  noClasses = false
