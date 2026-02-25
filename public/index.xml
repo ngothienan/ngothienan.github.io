@@ -31,6 +31,14 @@
 &lt;p&gt;The plugin &lt;strong&gt;Knowledge Base for Documentation, FAQs with AI Assistance&lt;/strong&gt;  (versions 11.30.2 and below), which is estimated to have over 10,000 active installations.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Một line Regex cơ bản và mình đã kiếm $$$$$ như thế nào</title>
+      <link>http://localhost:1313/posts/m%E1%BB%99t-line-regex-c%C6%A1-b%E1%BA%A3n-v%C3%A0-m%C3%ACnh-%C4%91%C3%A3-ki%E1%BA%BFm--nh%C6%B0-th%E1%BA%BF-n%C3%A0o/</link>
+      <pubDate>Mon, 19 Feb 2024 21:24:25 +0700</pubDate>
+      <guid>http://localhost:1313/posts/m%E1%BB%99t-line-regex-c%C6%A1-b%E1%BA%A3n-v%C3%A0-m%C3%ACnh-%C4%91%C3%A3-ki%E1%BA%BFm--nh%C6%B0-th%E1%BA%BF-n%C3%A0o/</guid>
+      <description>&lt;h1 id=&#34;một-line-regex-cơ-bản-và-mình-đã-kiếm--như-thế-nào&#34;&gt;Một line Regex cơ bản và mình đã kiếm $$$$$ như thế nào&lt;/h1&gt;
+&lt;p&gt;Mọi người ở đây đều biết các site Wordpress có lượt sử dụng nhiều như thế nào nhưng các chương trình bounty xưa giờ nó payout ít quá dẫn đến ít ai quan tâm (trừ farm 0 day unauth để đi bounty program khác). Nhưng bắt đầu từ cuối 2023 tới khoảng giữa năm 2024 này thì 2 platform có tiếng như Wordfence và Patchstack đua nhau ra các event và payout tăng kha khá nên mình có để tâm một chút ( ͡° ͜ʖ ͡°)&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>[POC] CVE-2020-7769 - Command Injection in nodemailer</title>
       <link>http://localhost:1313/posts/poc-cve-2020-7769---command-injection-in-nodemailer/</link>
       <pubDate>Sun, 03 Sep 2023 21:24:25 +0700</pubDate>
