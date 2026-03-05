@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.156.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Feb 2024 21:24:25 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 21:24:25 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI-Driven Code Analysis: The Future of Whitebox Security Testing</title>
+      <link>http://localhost:1313/posts/ai-driven-code-analysis---the-future-of-whitebox-security-testing/</link>
+      <pubDate>Sun, 03 May 2026 21:24:25 +0700</pubDate>
+      <guid>http://localhost:1313/posts/ai-driven-code-analysis---the-future-of-whitebox-security-testing/</guid>
+      <description>&lt;h2 id=&#34;icymi-in-case-you-missed-it&#34;&gt;ICYMI (In Case You Missed It)&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s be real—whitebox pentesting involves &lt;em&gt;a lot&lt;/em&gt; of tedious, repetitive steps. From reading and wrapping your head around the context, digging through the logic, hunting for bugs, exploiting them, to the absolute drag of writing reports&amp;hellip; it&amp;rsquo;s a grind. But guess what? AI can now totally carry us through almost all of these phases! In this post, I&amp;rsquo;m going to flex &lt;strong&gt;Antigravity&lt;/strong&gt; along with its full arsenal of skills and rules to pull off a buttery smooth whitebox pentest.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>[POC] CVE-2024-24842 - Unauthenticated PHP Object Injection in plugin Knowledge Base - Wordpress</title>
       <link>http://localhost:1313/posts/poc--cve-2024-24842---unauthenticated-php-object-injection-in-plugin-knowledge-base/</link>
